@@ -1,0 +1,69 @@
+
+.Navcontainer{
+	/*margin-right: auto;
+	margin-left: auto;*/
+	position: fixed;
+	background: grey;
+	width: 100%;
+}
+
+.navheader{
+	margin-left: 60px;
+}
+
+
+.NoBulletList{
+	list-style: none;
+	text-align: right;
+}
+
+
+nav ul li{
+	color:purple;
+	margin-right: 15px;
+
+
+}
+.container .li{
+	
+}
+
+input{
+	width:50%;
+}
+
+.SearchAndResults{
+	padding-top: 100px;
+	margin-left: 100px;
+}
+
+/*
+.SearchImg{
+	background-image:url(magnifying-glass.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 15px;
+}
+*/
+
+p.pagenav{
+	flex-direction: row;
+}
+
+.SearchResults{
+	color:grey;
+}
+
+p.SearchResult{
+	display: inline;
+	margin-right: 10px;
+}
+
+p.SearchResultTitle{
+	color: blue;
+	font-weight: bold;
+}
+
+p.SearchResultTitle:Hover{
+	color: black;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greg's List</title>
+	<meta name='description' content='Localized Search for everyday and speciality items'>
+	 <!-- reset -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<nav class='NavContainer'>
+		<h1 class='navheader'>Greg's List </h1>
+		<ul>
+			<li class='NoBulletList'> Post </li>
+			<li class='NoBulletList'> Account </li>
+	</nav>
+	<div class='SearchAndResults'>
+		<form class='search-form' action="/some-server-endpoint" method='post'>
+			<input placeholder='Search Software jobs' class="searchImg" type="text" name="search">
+		</form>
+	
+		<div class='pagenav'>
+			<p>< prev</p>
+			<p> 1 to 100 of 179 </p>
+			<p> next > </p>
+		</div>
+
+		<div class='SearchResults'>
+			<div class=SearchResult>
+				<p>June 22</p>
+				<p class='SearchResultTitle'>Technical Project Manager</p>
+				<p>Remote</p>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
