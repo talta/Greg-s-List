@@ -1,53 +1,71 @@
 
-.Navcontainer{
+.NavContainer{
 	/*margin-right: auto;
 	margin-left: auto;*/
 	position: fixed;
-	background: grey;
+	background-color: grey;
 	width: 100%;
 }
 
 .navheader{
 	margin-left: 60px;
+	width: 300px;
+	float: left;
 }
-
 
 .NoBulletList{
 	list-style: none;
-	text-align: right;
 }
 
+nav ul{
+	float: right;
+	display: inline-block;
+}
 
 nav ul li{
 	color:purple;
 	margin-right: 15px;
-
-
+	display: inline;
+	font-size: 24px;
 }
+/*
 .container .li{
 	
-}
+}*/
 
-input{
-	width:50%;
-}
+
 
 .SearchAndResults{
 	padding-top: 100px;
 	margin-left: 100px;
 }
 
-/*
-.SearchImg{
-	background-image:url(magnifying-glass.png);
-	background-repeat: no-repeat;
-	background-position: top left;
-	padding-left: 15px;
+.search-form input{
+	border: 1px solid grey;
+	width:50%;
+	height: 30px;
 }
-*/
 
-p.pagenav{
-	flex-direction: row;
+.SearchImg{
+	/*width: 30px;*/
+	height: 35px;
+	background-color: white;
+	border: 1px solid grey;
+	display: inline;
+	top: 9px;
+	position: relative;
+}
+
+.magImg{
+	 height: 30px;
+	 width: 30px;
+}
+
+
+.PageNav{
+	/*flex-direction: row;*/
+	display: inline-block;
+	margin-top: 30px;
 }
 
 .SearchResults{

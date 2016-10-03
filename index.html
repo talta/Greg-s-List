@@ -10,21 +10,27 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-	<nav class='NavContainer'>
-		<h1 class='navheader'>Greg's List </h1>
-		<ul>
-			<li class='NoBulletList'> Post </li>
-			<li class='NoBulletList'> Account </li>
-	</nav>
+	<header>
+		<nav class='NavContainer'>
+			<div class='navheader'>
+				<h1>Greg's List
+				</h1>
+			</div>
+			<ul>
+				<li class='NoBulletList'> Post </li>
+				<li class='NoBulletList'> Account </li>
+		</nav>
+	</header>
 	<div class='SearchAndResults'>
 		<form class='search-form' action="/some-server-endpoint" method='post'>
-			<input placeholder='Search Software jobs' class="searchImg" type="text" name="search">
+			<input placeholder='Search Software jobs' type="text" name="search">
+			<button class="SearchImg" type='submit'> <img class='magImg'src='magnifying-glass.png'></button> 
 		</form>
 	
-		<div class='pagenav'>
-			<p>< prev</p>
+		<div class='PageNav'>
+			<button>< prev</button>
 			<p> 1 to 100 of 179 </p>
-			<p> next > </p>
+			<button> next > </button>
 		</div>
 
 		<div class='SearchResults'>
