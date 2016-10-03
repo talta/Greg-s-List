@@ -3,8 +3,9 @@
 	/*margin-right: auto;
 	margin-left: auto;*/
 	position: fixed;
-	background-color: grey;
+	background-color: #D3d3d3;
 	width: 100%;
+	border-bottom: 1px solid #DDDDDD;
 }
 
 .navheader{
@@ -13,21 +14,29 @@
 	float: left;
 }
 
+
 .NoBulletList{
 	list-style: none;
-}
-
-nav ul{
 	float: right;
 	display: inline-block;
+	margin-top: 20px;
 }
 
-nav ul li{
+nav a{
 	color:purple;
 	margin-right: 15px;
 	display: inline;
 	font-size: 24px;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
 /*
 .container .li{
 	
@@ -52,7 +61,7 @@ nav ul li{
 	background-color: white;
 	border: 1px solid grey;
 	display: inline;
-	top: 9px;
+	top: 11px;
 	position: relative;
 }
 
@@ -65,12 +74,23 @@ nav ul li{
 .PageNav{
 	/*flex-direction: row;*/
 	position: relative; 
-	display: block;
+	display: inline-block;
 	margin-top: 30px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+
+span  .InBetweenButtons{
+	border: 1px solid black;
+	color: blue;
+	padding: 0;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 .SearchResults{
 	color:grey;
+	padding-top: 30px;
 }
 
 .SearchResult{
@@ -81,8 +101,13 @@ nav ul li{
 .SearchResultTitle{
 	color: blue;
 	font-weight: bold;
+	margin-right: 8px;
+	margin-left: 8px;
 }
 
 .SearchResultTitle:Hover{
 	color: black;
 }
+
+
+
